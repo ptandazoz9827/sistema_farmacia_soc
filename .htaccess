@@ -1,0 +1,5 @@
+php_flag display_errors off
+Options -Indexes
+<FilesMatch "(?i)(\.bak$|\.sql$|\.ini$|\.log$|\.sh$)">
+    Require all denied
+</FilesMatch>
